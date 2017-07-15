@@ -23,7 +23,7 @@ Usage:
 
 ```
 >>> voobly = Voobly(voobly_developer_api_key) # 32 bytes long key
->>> voobly_obj.init()
+>>> voobly.init()
 >>> voobly.find_user('some_user')
 [{'uid': '12345', 'name': 'some_user'}]
 >>> voobly.get_user(12345)
